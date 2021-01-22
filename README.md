@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# React Boiler Plate Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Available Packages
 
-## Available Scripts
+1. Redux
+2. Redux thunk
+3. React Redux
+4. React router
+5. Ant Design
+6. Axios
+7. Redux DevTool as Dev dependency
 
-In the project directory, you can run:
+### Packages Configured
 
-### `npm start`
+1. Redux is configured with Async & Sync Actions & Reducers
+2. React Router is Configured
+3. Redux DevTool is also Configured, Although the Browser extension for chrome/firefox needs to be downloaded separately
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Use The app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone or download the repository
+2. Open the terminal on the folder
+3. Run the command 'npm install' to install the the dependencies
 
-### `npm test`
+### Folder Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+├── App.css
+├── App.js
+├── App.test.js
+├── components
+│   └── HomeComponent.js
+├── index.css
+├── index.js
+├── logo.svg
+├── pages
+│   └── Home.js
+├── redux
+│   ├── index.js
+│   ├── orders
+│   │   ├── orderActionTypes.js
+│   │   ├── orderReducer.js
+│   │   └── ordersActions.js
+│   ├── products
+│   │   ├── productsActionTypes.js
+│   │   ├── productsActions.js
+│   │   └── productsReducer.js
+│   ├── rootReducer.js
+│   └── store.js
+├── reportWebVitals.js
+├── setupTests.js
+```
